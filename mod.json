@@ -1,0 +1,25 @@
+{
+    "geode": "4.1.0",
+    "gd": {
+        "win": "2.2074"
+    },
+    "id": "ninkaz.middle-click-panning",
+    "name": "Middle Click Panning",
+    "version": "v1.0.0",
+    "developer": "NinKaz",
+    "description": "Make moving through the editor easier",
+    "tags": [
+        "editor", "utility", "enhancement", "offline"
+    ],
+    "settings": {
+        "drag-button": {
+            "name": "Mouse Button to Drag",
+            "type": "string",
+            "one-of": [
+                "Right Click",
+                "Middle Click"
+            ],
+            "default": "Middle Click"
+        }
+    }
+}
