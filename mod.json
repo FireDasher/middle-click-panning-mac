@@ -11,9 +11,12 @@
     "tags": [
         "editor", "utility", "enhancement", "offline"
     ],
+    "links": {
+        "source": "https://github.com/flurrybun/middle-click-panning"
+    },
     "settings": {
         "drag-button": {
-            "name": "Mouse Button to Drag",
+            "name": "Panning Button",
             "type": "string",
             "one-of": [
                 "Right Click",
