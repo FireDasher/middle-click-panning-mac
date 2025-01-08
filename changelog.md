@@ -1,2 +1,7 @@
+# 1.0.1
+
+- Remove unnecessary mod info
+
 # 1.0.0
-- Edit this file to change your mod's changelog.
+
+- Initial version
