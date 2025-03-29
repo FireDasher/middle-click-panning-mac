@@ -1,6 +1,7 @@
 #include <Geode/modify/LevelEditorLayer.hpp>
 #include <Geode/modify/CCEGLView.hpp>
 #include <Geode/Geode.hpp>
+#include <GLFW/glfw3.h>
 using namespace geode::prelude;
 
 class $modify(ModLevelEditorLayer, LevelEditorLayer) {
