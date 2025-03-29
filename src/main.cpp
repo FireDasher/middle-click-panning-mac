@@ -1,11 +1,11 @@
 #include "main.hpp"
 
 bool isPanning = false;
-int dragButton = Mod::get()->getSettingValue<std::string>("drag-button") == "Right Click" ? GLFW_MOUSE_BUTTON_RIGHT : GLFW_MOUSE_BUTTON_MIDDLE;
+int dragButton = Mod::get()->getSettingValue<std::string>("drag-button") == "Right Click" ? GLFW_MOUSE_BUTTON_2 : GLFW_MOUSE_BUTTON_3;
 
 $execute {
     listenForSettingChanges("drag-button", [](std::string value) {
-        dragButton = value == "Right Click" ? GLFW_MOUSE_BUTTON_RIGHT : GLFW_MOUSE_BUTTON_MIDDLE;
+        dragButton = value == "Right Click" ? GLFW_MOUSE_BUTTON_2 : GLFW_MOUSE_BUTTON_3;
     });
 }
 
